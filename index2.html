@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- "Head" do site, onde geralmente colocamos informações meta e o título do site, ficando na parte superior da página, é a primeira coisa que os visitantes veem quando acessam o site. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cadastro de Contato e Oportunidades</h1>
+        <nav> 
+            <ul> 
+                <li><a href="#cadastro">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+<section id="cadastro">
+            <h2>Ficha de cadastro para vaga disponível!</h2>
+
+            <form action="">
+                <!-- Form é usado para criar formulários de entrada de dados. -->
+                <label for="nome">Nome completo: </label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="idade">Idade: </label>
+                <input type="number" id="idade" name="idade" required><br>
+
+                <!-- <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone"><br> -->
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto"><br>
+                    <option value="matematica">Matemática</option>
+                    <option value="portugues">Português</option>
+                    <option value="biologia">Biologia</option>
+                    <option value="ciencias">Ciências</option>
+                    <option value="historia">História</option>
+                    <option value="geografia">Geografia</option>
+                    <option value="artes">Artes</option>
+                </select><br>
+
+                <label for="turnoDisposnivel">Turno disponível: </label>
+                <select name="turnoDisponivel" id="turnoDisponivel"><br>
+                    <option value="manha">Manhã</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noite">Noite</option>
+                </select><br>
+
+                <label for="escolaridade">Escolaridade: </label>
+                <select name="escolaridade" id="escolaridade"><br>
+                    <option value="ensinoSuperiorCompleto">Ensino Superior Completo</option>
+                    <option value="cursandoMestrado">Cursando Mestrado</option>
+                    <option value="mestradoCompleto">Mestrado Completo</option>
+                    <option value="cursandoDoutorado">Cursando Doutorado</option>
+                    <option value="doutoradoCompleto">Doutorado Completo</option>
+                </select><br>
+
+                <label for="descricao">Descrição de si mesmo: </label><br>
+                <textarea id="descricao" name="descricao" rows="4" cols="50" required></textarea><br>
+
+                <!-- <input type="checkbox" name="inscricao" id="incricao">
+                <label for="incricao">Deseja inscrever para receber minhas novidades? Fique por dentro!</label> <br> -->
+
+                <button type="submit">Enviar</button> <br>
+
+            </form>
+
+            <!-- E-mail: <a href="mailto:robertdc.consultor@gmail.com">robertdc.consultor@gmail.com</a> <br>
+            Telefone: <a href="tel:+5511999999999">+55 11 99999-9999</a> <br>
+            Linkedin: <a href="https://www.linkedin.com/in/rdcampos1984/">linkedin.com/in/rdcampos1984</a> -->
+        </section>
