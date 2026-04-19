@@ -11,8 +11,8 @@
 <body>
     <header>
         <!-- "Header" do site, onde geralmente colocamos o título do site e a navegação, ficando na parte superior da página, é a primeira coisa que os visitantes veem quando acessam o site. -->
-<!-- "H1" é usado para o titulo principal do site, é o elemento mais importante em termos de hierarquia de títulos, e deve ser usado apenas uma vez por página para indicar o título principal do conteúdo. -->
-        <h1>Robert D. Campos</h1> 
+        <!-- "H1" é usado para o titulo principal do site, é o elemento mais importante em termos de hierarquia de títulos, e deve ser usado apenas uma vez por página para indicar o título principal do conteúdo. -->
+        <h1>Robert D. Campos</h1>
         <nav> <!-- Seção de navegação do site -->
             <ul> <!-- Lista não ordenada de links do menu (usando o elemento ul para "menu", o "li" é a listagem, e o "a" é usado para criar links internos ou externos)-->
                 <li><a href="#sobre">Sobre mim</a></li>
@@ -31,7 +31,7 @@
         <!-- "h2" é usado para o subtítulo da seção, ajudando a organizar o conteúdo em camadas hierárquicas. -->
         <img src="https://media.licdn.com/dms/image/v2/C5603AQEbVS3VNlXBMQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516783482714?e=1778112000&v=beta&t=3Q4KsRIkQ6-okFozA3ESAdbCBwDa87DlAQLHiBnXA3I"
             alt="Imagem de foto de perfil de Robert." title="Imagem de Robert">
-            <!-- "Img" é usado para inserir imagens no site, o "src" especifica o caminho da imagem, o "alt" fornece uma descrição alternativa para a imagem e o "title" exibe uma dica quando o usuário passa o mouse sobre a imagem. -->
+        <!-- "Img" é usado para inserir imagens no site, o "src" especifica o caminho da imagem, o "alt" fornece uma descrição alternativa para a imagem e o "title" exibe uma dica quando o usuário passa o mouse sobre a imagem. -->
 
         <article>
             <!-- "Article" é usado para agrupar conteúdo independente, no caso, o texto sobre o autor. -->
@@ -90,7 +90,35 @@
         <section id="contato">
             <p>Tem um projeto em mente? Entre em contato comigo!</p>
 
-            adrress: <a href="mailto:robertdc.consultor@gmail.com">robertdc.consultor@gmail.com</a> <br>
+            <form action="">
+                <!-- Form é usado para criar formulários de entrada de dados. -->
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone"><br>
+
+                <label for="nome">Nome: </label>
+                <select name="assunto" id="assunto"><br>
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select><br>
+
+                <label for="mensagem">Mensagem: </label><br>
+                <textarea id="mensagem" name="mensagem" rows="3" cols="40" required></textarea><br>
+
+                <input type="checkbox" name="inscricao" id="incricao">
+                <label for="incricao">Deseja inscrever para receber minhas novidades? Fique por dentro!</label> <br>
+
+                <button type="submit">Enviar</button> <br>
+
+            </form>
+
+            E-mail: <a href="mailto:robertdc.consultor@gmail.com">robertdc.consultor@gmail.com</a> <br>
             Telefone: <a href="tel:+5511999999999">+55 11 99999-9999</a> <br>
             Linkedin: <a href="https://www.linkedin.com/in/rdcampos1984/">linkedin.com/in/rdcampos1984</a>
         </section>
