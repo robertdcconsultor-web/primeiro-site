@@ -2,10 +2,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
+/* p {
     color: green;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+} */
 
 div {
     height: 200px;
@@ -16,7 +16,7 @@ a {
     color: red;
 }
 
-#habilidades{
+#habilidades {
     font-weight: bold;
     color: aquamarine;
 }
