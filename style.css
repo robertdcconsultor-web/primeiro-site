@@ -16,12 +16,18 @@ a {
     color: red;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+/* #"termo" localiza o "ID" no HTML e aplica a formação desejada */
 #habilidades {
     font-weight: bold;
     color: blue;
 }
-
+/* ."termo" localiza a "class" no HTML e aplica a formação desejada */
 .negrito {
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* p + a {}  seletor irmão adjacente*/
+/* p ~ a {}  seletor irmão "todos após ele"*/
+/* p > a {}  seletor onde todos os filhos recebem a alteração*/
+/* p   a {}  seletor descendente (tem um espaço entre o paragrafo e o "a"*/
