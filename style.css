@@ -19,5 +19,9 @@ a {
 
 #habilidades {
     font-weight: bold;
-    color: aquamarine;
+    color: blue;
+}
+
+.negrito {
+    font-weight: bold;
 }
