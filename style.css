@@ -31,3 +31,10 @@ a {
 /* p ~ a {}  seletor irmão "todos após ele"*/
 /* p > a {}  seletor onde todos os filhos recebem a alteração*/
 /* p   a {}  seletor descendente (tem um espaço entre o paragrafo e o "a"*/
+
+/* Inicio aula Box Model */
+h2 {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #000;
+}
